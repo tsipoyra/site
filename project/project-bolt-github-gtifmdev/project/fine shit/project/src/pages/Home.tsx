@@ -36,7 +36,7 @@ export default function Home() {
       description:
         'Task flows, data handling, reporting, and cross-system synchronization.',
       link: '/solutions#operations',
-      colors: 'border-orange-500/20 hover:border-orange-400/50 hover:shadow-orange-500/20 group-hover:text-orange-400',
+      colors: 'border-sky-500/20 hover:border-sky-400/50 hover:shadow-sky-500/20 group-hover:text-sky-400',
     },
     {
       title: 'Custom Websites & Web Applications',
@@ -192,7 +192,7 @@ export default function Home() {
               </div>
             ))}
           </div>
-          <p className="text-xl sm:text-xl font-semibold text-orange-400 text-center">
+          <p className="text-xl sm:text-xl font-semibold text-cyan-400 text-center">
             Growth exposes weak systems.
           </p>
         </div>
@@ -285,7 +285,7 @@ export default function Home() {
                 description:
                   'Systems are deployed, monitored, and improved based on real usage. Automation is treated as infrastructure — not a one-off project.',
                 icon: Shield,
-                colors: 'border-orange-500/30 from-orange-500/20 to-amber-500/20 text-orange-400',
+                colors: 'border-blue-500/30 from-blue-500/20 to-sky-500/20 text-blue-400',
               },
             ].map((step, index) => (
               <div
@@ -412,7 +412,7 @@ export default function Home() {
           </p>
           <Link
             to="/contact"
-            className="inline-flex items-center justify-center px-7 sm:px-8 py-4 sm:py-4 bg-gradient-to-r from-orange-500 to-amber-500 text-white text-lg sm:text-lg font-semibold rounded-lg hover:shadow-2xl hover:shadow-orange-500/50 transition-all duration-300 hover:scale-105 shadow-lg shadow-orange-500/30 animate-pulse-glow-orange"
+            className="inline-flex items-center justify-center px-7 sm:px-8 py-4 sm:py-4 bg-gradient-to-r from-cyan-500 to-emerald-500 text-white text-lg sm:text-lg font-semibold rounded-lg hover:shadow-2xl hover:shadow-cyan-500/50 transition-all duration-300 hover:scale-105 shadow-lg shadow-cyan-500/30 animate-pulse-glow-emerald"
           >
             Request an Automation Audit
             <ArrowRight className="ml-2" size={20} />
@@ -433,8 +433,8 @@ export default function Home() {
                 'border-teal-500/30 hover:border-teal-400/50',
                 'border-blue-500/30 hover:border-blue-400/50',
                 'border-sky-500/30 hover:border-sky-400/50',
-                'border-orange-500/30 hover:border-orange-400/50',
-                'border-amber-500/30 hover:border-amber-400/50',
+                'border-cyan-500/30 hover:border-cyan-400/50',
+                'border-blue-500/30 hover:border-blue-400/50',
               ];
               const colorClass = colors[index % colors.length];
               return (
